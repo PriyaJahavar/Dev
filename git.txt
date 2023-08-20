@@ -1,0 +1,228 @@
+Azure Dashboard 
+
+Git -- Source code management tool/control
+       version tool
+	   
+Repository 
+1. Local repo
+- Repository -- which will be made 
+in local drive
+
+2. remote repo
+it is a kind of folder which will be 
+on the server 
+
+Visual Studio (vs code)
+==== editor 
+   -- eclipse
+   -- intellij
+   -- pycharm 
+git ---
+
+---------------------------------
+
+git config --global user.name "saurabh"
+git config --global user.email "saurabh123@gmail.com"
+
+
+git tags
+
+
+Stash---
+ Stash is also a virtual workspace
+ 
+ After commiting the previous code if 
+ we do any changes 
+ 
+ then we are not going to push the recent
+ changes in repo
+ 
+ note:
+ stash will work after commiting 
+ 
+ if we want to move the statement 
+ of a file then we go for stash
+ 
+ commit -- commit id 
+ stash -- stash id 
+
+ In stash first stash id == 0
+   2nd stash -- stash id == 1
+ 
+ filo - first in last out
+ 
+
+
+Git ignore 
+
+it is used to untrack the new file 
+
+ 
+Branches ------------------------
+
+file -- code -- facebook
+
+dev1 -- login
+dev2 -- changing password
+dev3 -- account delete 
+
+dev1 -- login -- facebookproject
+dev2 -- changing password -- facebook project 
+dev3 -- account delete-- facebook project 
+
+branching ---
+dev1 == branch dev1-- code review -- main project 
+dev2--- branch dev2 -- main project 
+dev3 -- branch dev3--- main project 
+
+
+user defined branch -- master ==can see
+user is on master branch -- he cant see
+user created branch data until unless
+we merge the both branch 
+
+git fetch -- information metadata
+
+git pull -- it will pull the repo
+from remote to local
+
+
+Azure Dashboard 
+
+Git -- Source code management tool/control
+       version tool
+	   
+Repository 
+1. Local repo
+- Repository -- which will be made 
+in local drive
+
+2. remote repo
+it is a kind of folder which will be 
+on the server 
+
+Visual Studio (vs code)
+==== editor 
+   -- eclipse
+   -- intellij
+   -- pycharm 
+git ---
+
+---------------------------------
+
+git config --global user.name "saurabh"
+git config --global user.email "saurabh123@gmail.com"
+
+
+git tags
+
+
+Stash---
+ Stash is also a virtual workspace
+ 
+ After commiting the previous code if 
+ we do any changes 
+ 
+ then we are not going to push the recent
+ changes in repo
+ 
+ note:
+ stash will work after commiting 
+ 
+ if we want to move the statement 
+ of a file then we go for stash
+ 
+ commit -- commit id 
+ stash -- stash id 
+
+ In stash first stash id == 0
+   2nd stash -- stash id == 1
+ 
+ filo - first in last out
+ 
+
+
+Git ignore 
+
+it is used to untrack the new file 
+
+ 
+Branches ------------------------
+
+file -- code -- facebook
+
+dev1 -- login
+dev2 -- changing password
+dev3 -- account delete 
+
+dev1 -- login -- facebookproject
+dev2 -- changing password -- facebook project 
+dev3 -- account delete-- facebook project 
+
+branching ---
+dev1 == branch dev1-- code review -- main project 
+dev2--- branch dev2 -- main project 
+dev3 -- branch dev3--- main project 
+
+
+user defined branch -- master ==can see
+user is on master branch -- he cant see
+user created branch data until unless
+we merge the both branch 
+
+git fetch -- information metadata
+
+git pull -- it will pull the repo
+from remote to local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Repo-- it is like a folder 
+
+
+
+
+
+
+
