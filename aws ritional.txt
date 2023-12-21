@@ -1,0 +1,478 @@
+
+323142383365
+
+Azure Dashboard 
+
+Git -- Source code management tool/control
+       version tool
+	   
+Repository 
+1. Local repo
+- Repository -- which will be made 
+in local drive
+
+2. remote repo
+it is a kind of folder which will be 
+on the server 
+
+Visual Studio (vs code)
+==== editor 
+   -- eclipse
+   -- intellij
+   -- pycharm 
+git ---
+
+---------------------------------
+
+git config --global user.name "saurabh"
+git config --global user.email "saurabh123@gmail.com"
+
+
+git tags
+
+
+Stash---
+ Stash is also a virtual workspace
+ 
+ After commiting the previous code if 
+ we do any changes 
+ 
+ then we are not going to push the recent
+ changes in repo
+ 
+ note:
+ stash will work after commiting 
+ 
+ if we want to move the statement 
+ of a file then we go for stash
+ 
+ commit -- commit id 
+ stash -- stash id 
+
+ In stash first stash id == 0
+   2nd stash -- stash id == 1
+ 
+ filo - first in last out
+ 
+
+
+Git ignore 
+
+it is used to untrack the new file 
+
+ 
+Branches ------------------------
+
+file -- code -- facebook
+
+dev1 -- login
+dev2 -- changing password
+dev3 -- account delete 
+
+dev1 -- login -- facebookproject
+dev2 -- changing password -- facebook project 
+dev3 -- account delete-- facebook project 
+
+branching ---
+dev1 == branch dev1-- code review -- main project 
+dev2--- branch dev2 -- main project 
+dev3 -- branch dev3--- main project 
+
+
+user defined branch -- master ==can see
+user is on master branch -- he cant see
+user created branch data until unless
+we merge the both branch 
+
+git fetch -- information metadata
+
+git pull -- it will pull the repo
+from remote to local
+
+
+Azure Dashboard 
+
+Git -- Source code management tool/control
+       version tool
+	   
+Repository 
+1. Local repo
+- Repository -- which will be made 
+in local drive
+
+2. remote repo
+it is a kind of folder which will be 
+on the server 
+
+Visual Studio (vs code)
+==== editor 
+   -- eclipse
+   -- intellij
+   -- pycharm 
+git ---
+
+---------------------------------
+
+git config --global user.name "saurabh"
+git config --global user.email "saurabh123@gmail.com"
+
+
+git tags
+
+
+Stash---
+ Stash is also a virtual workspace
+ 
+ After commiting the previous code if 
+ we do any changes 
+ 
+ then we are not going to push the recent
+ changes in repo
+ 
+ note:
+ stash will work after commiting 
+ 
+ if we want to move the statement 
+ of a file then we go for stash
+ 
+ commit -- commit id 
+ stash -- stash id 
+
+ In stash first stash id == 0
+   2nd stash -- stash id == 1
+ 
+ filo - first in last out
+ 
+
+
+Git ignore 
+
+it is used to untrack the new file 
+
+ 
+Branches ------------------------
+
+file -- code -- facebook
+
+dev1 -- login
+dev2 -- changing password
+dev3 -- account delete 
+
+dev1 -- login -- facebookproject
+dev2 -- changing password -- facebook project 
+dev3 -- account delete-- facebook project 
+
+branching ---
+dev1 == branch dev1-- code review -- main project 
+dev2--- branch dev2 -- main project 
+dev3 -- branch dev3--- main project 
+
+
+user defined branch -- master ==can see
+user is on master branch -- he cant see
+user created branch data until unless
+we merge the both branch 
+
+git fetch -- information metadata
+
+git pull -- it will pull the repo
+from remote to local
+
+
+Dockerfile-- we can create own
+custumized image==
+
+syntax
+FROM = to choose an container based os
+Maintainer- Author Name
+RUN- while build the image what are the package want to 
+install with an image
+ADD - any url package to download
+copy - copy file b/w source and destination to ensure source and destination 
+should be on same path
+Expose - define the port number for an image
+Entrypoint -- during the rnning state of container if we want
+to append any version
+cmd -- during running state of container if we want o 
+replace any package version 
+label - tagging the name of the image 
+ENV --store credentials
+
+
+---------------------------------------------
+
+predifined image --  docker hub -- image -- container 
+
+ jenkins            jenkins:latest -- jenkimage- jenkin container 
+
+---------------------------------------------------
+
+customize image -- container
+
+Dockerfile --- image -- container 
+
+dockerfile ----------
+
+FROM ubuntu
+RUN apt-get update 
+RUN apt-get -y install apache2
+ENV name hello world 
+
+To come out of container -- there 
+are 2 ways 
+
+1. exit --  it will stop your container and 
+you will be inside the instance back from container 
+
+2. CONTROL +PQ -- it will not stop your container
+and just come out from container
+
+
+3. to start container --
+docker start containerID 
+
+
+4. to stop container --
+docker stop containerID 
+
+
+5.to go inside the container 
+-- docker attach containerID 
+
+6. to check the container is running 
+docker ps 
+
+7. to check the all running container as well as stoped 
+container
+
+docker ps -a
+
+
+8. delete the docker image
+  1. docker rmi imageID 
+  to forcefully delete the image
+  
+  docker rmi -f imageID
+  
+ to delete the container 
+ -- docker rm container id 
+
+
+Jenkins /docker -- single machine --
+-- jenkins -- root previlage --
+
+
+
+jenkins- war 
+new directory 
+move the directory 
+war jenkins machine -- directory 
+dockerfile ---
+images -- 
+container --
+port -- public ip 
+
+docker network ----------------
+
+Docker ne
+
+In bridgeN/w -- any container wants to connect 
+to the n/w -- we are using bridge n/w 
+
+Port forwarding :user cant define the number of port
+.only docker proxy can define it 
+
+
+port binding :user can define the port no 
+
+note:
+if we want to connect to container -
+we have to bind the container private ip to container 
+class B private ip 
+
+docker is having classB private ip 
+
+class B - 172.16.0.0 to 172.31.255.255
+
+class B ip == 172.16.0.2
+
+-----------------------------------------------
+
+host N/w -- it will bind the 2 container  
+connectivity between 2 containers
+
+non n/w --is isolated n/w = private n/w --
+-- everyone cannot connect 
+
+
+
+port forwarding --    -P
+
+
+port binding --        -p
+
+port forwarding---   -P
+
+---------------------------------------
+
+Devserver -- enviornment -- network
+non prod -- environment -- network 
+prod -- environment  -- network
+
+ 
+let us create a n/w -- by reserve ip  --
+class B 
+
+local repo ===
+
+
+we need to download the registory image 
+and this image will create a workspace 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Repo-- it is like a folder 
+
+
+
+
+
+
+
+
